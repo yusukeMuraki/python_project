@@ -12,3 +12,7 @@ settings.pyのINSTALLED＿APPに追加
 ### model変更
 `python manage.py makemigrations`
 `python manage.py migrate`
+
+admin
+admin@gmail.com
+Test@1234
