@@ -1,0 +1,8 @@
+<h3>アップロードするよ</h3>
+<form action="{% url 'analytics:upload' %}" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <input type="file" accept=".csv" class="dropify" data-default-file="ファイルを選択してください" name="csv">
+  <button type="submit" class="btn" name="button">アップロード</button>
+</form>
+
+<div>{{data}}</div>
